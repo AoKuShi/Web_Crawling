@@ -11,3 +11,6 @@
 		○ sklearn의 SVM모델 생성, 사용
 		○ streamlt으로 웹 UI 구현
 
+
+
+Selenium과 BeatifulSoup 사용법 : https://chatgpt.com/share/67f6095b-aaac-8007-81ee-4a3822096647
