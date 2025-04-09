@@ -1,0 +1,13 @@
+2nd Project(감성 분석 크롤링 사이트) 개발 계획
+	- 감성 분석 분야 선정
+		○ 유튜브 특정 검색어 상위 n개 유튜브 영상의 유튜브 댓글
+	- 데이터 수집 사이트 선정
+		○ https://www.youtube.com/
+	- WebCrawler 개발을 위한 HTML 분석
+		○ Selenium과 BeatifulSoup를 사용해 크롤링
+			§ Selenium로 html태그를 찾아가 직접 데이터를 가져옴
+			§ myTextMining에서 전처리 과정을 거쳐 정제된 데이터로 변환
+		○ 전처리 작업을 거친 데이터를 pandas의 csv로 저장, 관리
+		○ sklearn의 SVM모델 생성, 사용
+		○ streamlt으로 웹 UI 구현
+
